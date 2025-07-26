@@ -1,0 +1,48 @@
+# Python cache files
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Virtual environments
+venv/
+env/
+ENV/
+.venv/
+.python-version
+
+# OS-generated files
+.DS_Store
+Thumbs.db
+
+# VS Code settings (optional, if you're using it)
+.vscode/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Environment variables and secrets
+.env
+*.env
+
+# Logs and debugging
+*.log
+
+# Data files (optional, if they shouldn't be tracked)
+*.csv
+*.json
+*.xlsx
+*.db
+*.sqlite
+
+# Model files (if you're saving GPT outputs or models locally)
+*.h5
+*.pkl
+*.joblib
+
+# Node-related (if frontend involved)
+node_modules/
+dist/
+build/
+
+# Mac/Linux system files
+*.swp

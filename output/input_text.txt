@@ -1,0 +1,63 @@
+Page 1 · Line 1
+
+ATTORNEY: Please state your name for the record.
+
+WITNESS: My name is Sarah Thompson.
+
+ATTORNEY: And what is your occupation?
+
+WITNESS: I’m a senior software engineer at BrightTech Solutions.
+
+ATTORNEY: How long have you worked there?
+
+WITNESS: Since May of 2018.
+
+Page 2 · Line 7
+
+ATTORNEY: Can you describe your responsibilities at BrightTech?
+
+WITNESS: I primarily work on backend infrastructure, handling system design, server-side APIs, and data pipeline optimization.
+
+ATTORNEY: Did your role involve any interaction with client data?
+
+WITNESS: Yes, particularly with our internal analytics platform. I helped anonymize sensitive client information for usage tracking.
+
+Page 3 · Line 12
+
+ATTORNEY: Were you involved in the rollout of the June 2022 product update?
+
+WITNESS: Yes, I led the backend integration team for that release.
+
+ATTORNEY: Can you walk us through what that update included?
+
+WITNESS: It introduced a new analytics dashboard and an improved user access control module.
+
+Page 4 · Line 2
+
+ATTORNEY: Were there any incidents or outages during the rollout?
+
+WITNESS: There was a brief outage due to a misconfigured load balancer. We resolved it within 30 minutes.
+
+ATTORNEY: Was any user data compromised?
+
+WITNESS: No. The outage only impacted service availability, not data integrity or security.
+
+Page 5 · Line 9
+
+ATTORNEY: Let's shift to the internal email exchange from July 5th. Do you recall that?
+
+WITNESS: Yes, I do.
+
+ATTORNEY: You wrote, and I quote, “We should consider disabling legacy endpoints if they're still a vulnerability.”
+
+WITNESS: That’s correct. We had identified some endpoints that hadn’t been patched in months, and I was raising a flag.
+
+ATTORNEY: Was action taken following that recommendation?
+
+WITNESS: Yes, the endpoints were disabled within a week.
+
+Page 6 · Line 3
+
+ATTORNEY: Last question — are you aware of any unauthorized access to client environments during your tenure?
+
+WITNESS: No. To my knowledge, there were no breaches or suspicious activity reports involving client data.

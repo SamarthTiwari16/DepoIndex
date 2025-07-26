@@ -1,0 +1,23 @@
+You are an AI legal assistant. Your task is to extract the main **new topic** introduced in the following deposition transcript page.
+
+Provide:
+- topic: a 3–8 word summary of the topic
+- page_start: page number (as provided)
+- line_start: line number of the first mention of the topic
+
+If there is **no new topic**, return:
+{"topic": null}
+
+Example:
+Transcript:
+Page 1
+Line 1: Good morning. My name is Jane Doe.
+Line 2: Let's start with your role at the company.
+Line 3: I was the team lead for operations.
+
+Output:
+{"topic": "Employment Role at Company", "page_start": 1, "line_start": 2}
+
+Now process the following:
+Page {page_number}
+{page_text}

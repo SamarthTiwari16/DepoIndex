@@ -1,0 +1,49 @@
+# 🧾 Deposition Topic Table of Contents
+
+- **1** · Page 1 · Line 1
+- **Page 1** · Page 1 · Line 2
+- **Line 1** · Page 1 · Line 3
+- **MR SMITH Good morning everyone** · Page 1 · Line 5
+- **MR DAVIS My name is** · Page 1 · Line 7
+- **MR SMITH Thank you Mr** · Page 1 · Line 9
+- **MR DAVIS I work at** · Page 1 · Line 11
+- **MR SMITH And how long** · Page 1 · Line 13
+- **MR DAVIS Approximately five years** · Page 1 · Line 15
+- **2** · Page 1 · Line 17
+- **Page 2** · Page 1 · Line 18
+- **Line 1** · Page 1 · Line 19
+- **MR SMITH Lets talk about** · Page 1 · Line 21
+- **MR DAVIS I was in** · Page 1 · Line 23
+- **MR SMITH Did you notice** · Page 1 · Line 25
+- **MR DAVIS Yes I heard** · Page 1 · Line 27
+- **MR SMITH What did you** · Page 1 · Line 29
+- **MR DAVIS I ran to** · Page 2 · Line 31
+- **3** · Page 2 · Line 33
+- **Page 3** · Page 2 · Line 34
+- **Line 1** · Page 2 · Line 35
+- **MS LEE Objectionspeculation** · Page 2 · Line 37
+- **MR SMITH You may answer** · Page 2 · Line 39
+- **MR DAVIS It looked like** · Page 2 · Line 41
+- **MR SMITH Did you report** · Page 2 · Line 43
+- **MR DAVIS Yes immediately I** · Page 2 · Line 45
+- **MR SMITH What actions did** · Page 2 · Line 47
+- **MR DAVIS We evacuated the** · Page 2 · Line 49
+- **4** · Page 2 · Line 51
+- **Page 4** · Page 2 · Line 52
+- **Line 1** · Page 2 · Line 53
+- **MR SMITH Lets move to** · Page 2 · Line 55
+- **MR DAVIS Yes we go** · Page 2 · Line 57
+- **MR SMITH Were the employees** · Page 2 · Line 59
+- **MR DAVIS Yes Everyone is** · Page 3 · Line 61
+- **MR SMITH Did anyone sustain** · Page 3 · Line 63
+- **MR DAVIS Fortunately no Everyone** · Page 3 · Line 65
+- **5** · Page 3 · Line 67
+- **Page 5** · Page 3 · Line 68
+- **Line 1** · Page 3 · Line 69
+- **MS LEE Mr Davis did** · Page 3 · Line 71
+- **MR DAVIS I had mentioned** · Page 3 · Line 73
+- **MS LEE To whom** · Page 3 · Line 75
+- **MR DAVIS To Mr Patel** · Page 3 · Line 77
+- **MS LEE Were any steps** · Page 3 · Line 79
+- **MR DAVIS I believe an** · Page 3 · Line 81
+- **MR SMITH No further questions** · Page 3 · Line 83
