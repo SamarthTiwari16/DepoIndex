@@ -46,3 +46,4 @@ build/
 
 # Mac/Linux system files
 *.swp
+.env

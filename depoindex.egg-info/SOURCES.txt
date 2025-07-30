@@ -1,0 +1,15 @@
+README.md
+setup.py
+backend/__init__.py
+backend/annotated_transcript.py
+backend/export_transcript.py
+backend/gemini_processor.py
+backend/generate_toc.py
+backend/generate_topics.py
+backend/main.py
+backend/model.py
+backend/utils.py
+depoindex.egg-info/PKG-INFO
+depoindex.egg-info/SOURCES.txt
+depoindex.egg-info/dependency_links.txt
+depoindex.egg-info/top_level.txt

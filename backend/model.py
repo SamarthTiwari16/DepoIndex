@@ -4,26 +4,23 @@ from sklearn.feature_extraction.text import TfidfVectorizer
 import numpy as np
 
 # Load once globally
-model = SentenceTransformer('all-MiniLM-L6-v2')  # Fast + lightweight
+model = SentenceTransformer('all-MiniLM-L6-v2')
 embedding_cache = []
 chunk_cache = []
 
-# Call this only once to collect embeddings
 def build_topic_clusters(chunks, n_clusters=5):
     texts = [chunk["text"] for chunk in chunks]
     embeddings = model.encode(texts)
 
-    # Reduce n_clusters if too few samples
+    # Reduce clusters if too few samples
     n_clusters = min(n_clusters, len(texts))
-
     kmeans = KMeans(n_clusters=n_clusters, random_state=42)
     labels = kmeans.fit_predict(embeddings)
 
-    # Assign cluster number
     for i, chunk in enumerate(chunks):
         chunk["cluster"] = int(labels[i])
 
-    # Extract representative topic keywords per cluster
+    # Collect text for each cluster
     cluster_texts = {i: "" for i in range(n_clusters)}
     for i, chunk in enumerate(chunks):
         cluster_texts[labels[i]] += " " + chunk["text"]
@@ -33,6 +30,11 @@ def build_topic_clusters(chunks, n_clusters=5):
     # Assign topic name to each chunk
     for chunk in chunks:
         chunk["topic_name"] = topic_keywords[chunk["cluster"]]
+
+    # Populate caches
+    global embedding_cache, chunk_cache
+    embedding_cache = model.encode([chunk["text"] for chunk in chunks])
+    chunk_cache = chunks
 
     return chunks
 
@@ -50,24 +52,22 @@ def extract_cluster_keywords(cluster_texts):
 
 
 def call_gpt_topic_detector(text, page, line):
-    """
-    Replaced GPT-based topic detector with local clustering.
-    For demo purposes, randomly assign a nearby topic by embedding similarity.
-    """
-    # Embed incoming text
     new_embedding = model.encode([text])[0]
 
-    # Find closest existing topic (cosine similarity)
     if embedding_cache is None or len(embedding_cache) == 0:
         return "Unknown", page, line
 
-    similarities = np.dot(embedding_cache, new_embedding) / (
-        np.linalg.norm(embedding_cache, axis=1) * np.linalg.norm(new_embedding)
-    )
+    def cosine_sim(a, b):
+        a_norm = np.linalg.norm(a)
+        b_norm = np.linalg.norm(b)
+        if a_norm == 0 or b_norm == 0:
+            return 0
+        return np.dot(a, b) / (a_norm * b_norm)
 
+    similarities = [cosine_sim(e, new_embedding) for e in embedding_cache]
     best_match_index = np.argmax(similarities)
     best_chunk = chunk_cache[best_match_index]
 
-    topic = best_chunk.get("topic", "Unknown")
+    topic = best_chunk.get("topic_name", "Unknown")
 
     return topic, page, line

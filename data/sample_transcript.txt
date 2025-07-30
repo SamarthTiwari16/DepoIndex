@@ -1,83 +1,38 @@
-1  
-Page 1  
-Line 1  
+Page 1, Line 1
+ATTORNEY SMITH: Please state your full name for the record.
 
-MR. SMITH: Good morning, everyone. Let's begin the deposition of Mr. John Davis, dated March 15, 2024. Could you please state your full name for the record?
+Page 1, Line 3
+WITNESS JOHN DOE: My name is John Edward Doe.
 
-MR. DAVIS: My name is John Michael Davis.
+Page 1, Line 5
+ATTORNEY SMITH: Where do you currently reside?
 
-MR. SMITH: Thank you. Mr. Davis, where are you currently employed?
+Page 1, Line 6
+WITNESS JOHN DOE: I live in Springfield, Illinois.
 
-MR. DAVIS: I work at GreenTech Solutions as a Senior Software Engineer.
+Page 2, Line 1
+ATTORNEY SMITH: Can you describe your role at the company?
 
-MR. SMITH: And how long have you been working there?
+Page 2, Line 2
+WITNESS JOHN DOE: I was a senior product manager responsible for overseeing the design and implementation of our new software platform.
 
-MR. DAVIS: Approximately five years now.
+Page 3, Line 4
+ATTORNEY SMITH: Were you aware of any defects in the product prior to launch?
 
-2  
-Page 2  
-Line 1  
+Page 3, Line 6
+WITNESS JOHN DOE: There were internal reports mentioning performance issues, but I don’t recall any official defect documentation.
 
-MR. SMITH: Let's talk about the incident on January 5th. Where were you at approximately 2:30 p.m. that day?
+Page 4, Line 2
+ATTORNEY SMITH: Did your team take action in response to the reports?
 
-MR. DAVIS: I was in our main office on the third floor, working on system maintenance.
+Page 4, Line 3
+WITNESS JOHN DOE: Yes, we addressed some of the performance concerns in the next software patch.
 
-MR. SMITH: Did you notice anything unusual?
+Page 5, Line 1
+ATTORNEY SMITH: Was the plaintiff involved in those discussions?
 
-MR. DAVIS: Yes, I heard a loud crash coming from the server room.
+Page 5, Line 2
+WITNESS JOHN DOE: I believe she attended one of the meetings, but I can't say for sure if she contributed.
 
-MR. SMITH: What did you do after that?
-
-MR. DAVIS: I ran to the server room and saw smoke and sparks coming from one of the backup power units.
-
-3  
-Page 3  
-Line 1  
-
-MS. LEE: Objection—speculation.
-
-MR. SMITH: You may answer if you know.
-
-MR. DAVIS: It looked like the UPS had overheated and failed.
-
-MR. SMITH: Did you report this to your supervisor?
-
-MR. DAVIS: Yes, immediately. I called Mr. Andrew Patel, our operations manager.
-
-MR. SMITH: What actions did the company take following your report?
-
-MR. DAVIS: We evacuated the building and called emergency services. An investigation was initiated the next day.
-
-4  
-Page 4  
-Line 1  
-
-MR. SMITH: Let's move to the safety protocols in place. Are you familiar with the company’s emergency procedures?
-
-MR. DAVIS: Yes, we go through drills every quarter.
-
-MR. SMITH: Were the employees trained on what to do in such incidents?
-
-MR. DAVIS: Yes. Everyone is trained on the fire and electrical safety procedures.
-
-MR. SMITH: Did anyone sustain injuries during the event?
-
-MR. DAVIS: Fortunately, no. Everyone got out in time.
-
-5  
-Page 5  
-Line 1  
-
-MS. LEE: Mr. Davis, did you previously raise concerns about the backup power systems?
-
-MR. DAVIS: I had mentioned inconsistent voltage readings in December.
-
-MS. LEE: To whom?
-
-MR. DAVIS: To Mr. Patel and the facilities department.
-
-MS. LEE: Were any steps taken after your report?
-
-MR. DAVIS: I believe an inspection was scheduled, but it hadn’t taken place before the incident.
-
-MR. SMITH: No further questions at this time.
+Page 6, Line 4
+ATTORNEY SMITH: No further questions at this time.
