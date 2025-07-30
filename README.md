@@ -13,7 +13,7 @@
 - **Backend:** Python
 - **AI/ML:** SentenceTransformers, Google Gemini API
 - **Deployment:** Streamlit Cloud
-- 
+
 ##  Quick Start
 
 ## Try the Web App
