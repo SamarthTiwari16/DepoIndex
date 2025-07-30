@@ -3,9 +3,7 @@
 **DepoIndex** is an AI-powered tool designed to analyze deposition transcripts and automatically generate a structured **Table of Contents (TOC)**. It detects key topics, clusters related segments, and highlights pivotal arguments with page and line references—offering legal professionals a smarter way to navigate lengthy legal transcripts.
 
 [![License](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
-[![GitHub Issues](https://img.shields.io/github/issues/samarth1701/depoindex)](https://github.com/samarth1701/depoindex/issues)
 [![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://depoindex-samarth.streamlit.app/)
-[![Python Version](https://img.shields.io/badge/python-3.8%2B-blue)](https://www.python.org/downloads/)
 
 
 ##  Features
